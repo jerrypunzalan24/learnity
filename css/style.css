@@ -1,0 +1,90 @@
+.card {
+  border-radius: 0px;
+  border: 0px;
+}
+
+.subtitle {
+  font-size: 0.75em;
+}
+
+.bottom-bordered-default {
+  border-bottom: 1px solid #28a745;
+}
+
+.bottom-bordered-secondary {
+  border-bottom: 1px solid #cccccc;
+}
+
+.group {
+  border-radius: 5px;
+  border-bottom: 3px solid #cccccc;
+}
+
+.btn-custom {
+  font-weight: bold;
+  color: #999999;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-bottom: 3px solid #cccccc;
+}
+
+.row div {
+  text-wrap: break-word;
+}
+
+#has-error {
+  border-radius: 5px;
+  background-color: #28a745;   
+}
+
+#login-form {
+  border-radius: 5px;
+  border: 1px solid #28a745;
+  border-bottom: 3px solid #28a745;
+}
+
+#sidebar-wrapper {  
+  height: 100vh;
+  background-color: #28a745;
+}
+
+#image img {
+  border-radius: 50%;
+}
+
+#your-groups {
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-bottom: 3px solid #cccccc;
+}
+
+#your-groups-body {
+  max-height: 300px;
+  overflow: auto;
+}
+
+#content-wrapper {
+  background-color: #f1f1f1;
+  position: relative;
+}
+
+#suggestion-uncentered {
+  color: #adadad;
+}
+
+#content-wrapper #suggestion {
+  color: #adadad;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#group-search {
+  background-color: #f1f1f1;
+}
+
+#your-schedule {
+  border-bottom: 3px solid #cccccc;
+  border-radius: 5px;
+}
