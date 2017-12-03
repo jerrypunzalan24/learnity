@@ -15,18 +15,19 @@ session_start();
 <body>
   <div class="container-fluid">
     <div class="row">
+      <div class="text-center col-md-12 mt-3"><img src="assets/learnity-no-text.png" height=200></div>
       <div class="col-md-3"></div>
       <div class="col-md-6">
-        <div class="mt-5" id="login-wrapper">
+        <div class="mt-3" id="login-wrapper">
         <?php if(isset($_SESSION['error'])) { ?>
           <div id="has-error" class="px-3 py-2 text-white"><i class="fa fa-warning"></i> &nbsp;<?= $_SESSION['error'] ?></div>
           <?php
           session_destroy(); }?>
-          <div id="login-form" class="mt-2">
+          <div id="login-form" class="mt-2 px-sm-3">
             <div class="row mt-4">
               <div class="col-md-2"></div>
               <div class="col-md-8 text-center">
-                <h3><strong>Sign in to workspace.</strong></h3>
+                <h3><strong>Collaborate with the community.</strong></h3>
                 <p>Sign in and be connected to your study buddies!</p>
                 <form method="post" action="authenticate.php">
                   <div class="form-group">

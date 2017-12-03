@@ -1,0 +1,12 @@
+{
+  "name": "uhack",
+  "version": "0.0.1",
+  "main": "chat.js",
+  "scripts": {
+    "start": "supervisor --debug chat.js"
+  },
+  "dependencies": {
+    "socket.io": "~1",
+    "winston": "*"
+  }
+}

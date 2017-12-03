@@ -13,16 +13,12 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-2"></div>
-      <div class="col-md-4 mt-5">
-        <div class="card">
-          <p>
-            adouasbhchsdkhouchaipsdffjpwefpicsipedhpcsdhpchihibasdbxxbAasdpiajsidjiasjoasdasdjhakdjhaugduasguafscgvhbjvfctdcfvhbljuuftyf hjliguf ughjuvycvubf7tdvuiugyugvuhgivjiuhvjbihukjvbkuihas
-          </p>
-        </div>
+      <div class="col-md-4 mt-5 d-sm-none d-md-block" id="image-wrapper">
+        <img src="assets/learnity.png" height=300>
       </div>
-      <div class="col-md-4 mt-5">
+      <div class="col-md-4 mt-md-5 mt-sm-2">
         <div id="login-wrapper">
-          <div id="login-form" class="mt-2">
+          <div id="login-form" class="mt-2 px-sm-3">
             <div class="row mt-4">
               <div class="col-md-1"></div>
               <div class="col-md-10">
